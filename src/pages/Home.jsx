@@ -31,6 +31,11 @@ function Home() {
   return (
     
     <div>
+      <div style={{ display: "flex", alignItems: "center", marginTop: "5px" }}>
+        <img src="/logo.png" style={{ width:"50px", height: "50px"}}/>
+      <h1 className="title">Sensor</h1>
+      </div>
+      
       <div className='text-container'>
         <h1 className="text">Verify News with Confidence</h1>
         {
