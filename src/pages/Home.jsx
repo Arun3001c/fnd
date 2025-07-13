@@ -31,7 +31,7 @@ function Home() {
   return (
     
     <div>
-      <div style={{ display: "flex", alignItems: "center", marginTop: "5px" }}>
+      <div style={{ display: "flex", alignItems: "center", marginTop: "3px", marginLeft: "20px" }}>
         <img src="/logo.png" style={{ width:"50px", height: "50px"}}/>
       <h1 className="title">Sensor</h1>
       </div>
