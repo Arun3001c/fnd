@@ -56,10 +56,10 @@ function Home() {
               Just like searching on google.<br />
               You get an instant verdict: <strong>Verified</strong>, <strong>Alleged</strong>, or <strong>Fake</strong>.
             </p>
-            <video autoPlay loop muted playsInline className="container-video">
+            {/* <video autoPlay loop muted playsInline className="container-video">
               <source src="/landing.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </section>
         )}
       {news.length > 0 && (
